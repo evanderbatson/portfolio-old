@@ -1,0 +1,107 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// defaults
+$base-font-family: "markbook", Futura, Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+//colors
+$brand-color:      #26b79d;
+$dark-color: #111;
+$light-color: #fdfdfd;
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+//card heights
+
+$card-xl: 100vh;
+$card-l: 90vh;
+$card-m: 80vh;
+$card-s: 400px;
+
+//sizes
+$xxl: 46pt;
+$xl: 24pt;
+$l: 20pt;
+$m: 18pt;
+$s: 16pt;
+$xs: 14pt;
+$xxs: 10pt;
+
+// Width of the content area
+$content-width:    800px;
+$on-palm:          600px;
+$on-tablet:        800px;
+
+$box-width: 500px;
+
+@mixin crossBrowser($property, $css) {
+    -webkit-#{$property} : $css;
+    -moz-#{$property} : $css;
+    -o-#{$property} : $css;
+    #{$property} : $css;
+}
+
+@mixin button() {
+  @include crossBrowser(user-select, none);
+  cursor: pointer;
+} 
+
+@mixin deadCenter($percentX, $percentY) {
+  position: absolute;
+  top: $percentY;
+  left: $percentX;
+  @include crossBrowser(transform, translate(-$percentX, -$percentY));
+}
+
+@mixin circled($radius) {
+  vertical-align: middle;
+  border: $brand-color 5px solid;
+  border-radius: $radius;
+  width: $radius;
+  height: $radius;
+  padding: 0;
+  @include button();
+}
+
+@mixin contentCol() {
+  width: 70%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin yMargins($margin) {
+    margin-top: $margin;
+    margin-bottom: $margin;
+}
+
+//stuff
+
+.hidden {
+  display: none;
+}
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// Imports
+
+@import
+        "base",
+        "layout",
+        "type",
+        "typeface",
+        "breakpoints"
+;

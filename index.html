@@ -1,0 +1,38 @@
+---
+layout: home
+info: "I create digital products and media ecosystems with art and code. I work as Creative Director at <a href='http://silicamag.com' target='_blank'>Silica Magazine</a> and practice design for NYC-based agencies. I got my MFA in Design+Tech from Parsons."
+---
+
+<section id="hero">
+
+  <div class="centered-box">
+    <h1 class="myName">{{ site.myName }}</h1>
+    <div class="info hidden">
+      <p>{{ page.info }}</p>
+      <div class="x">X</div>
+    </div>
+    <div class="i">i</div>
+  </div>
+
+  <video autoplay loop muted class="mobile-hidden">
+    <source src="assets/desk.mp4" type="video/mp4">
+  </video>
+
+  <div class="arrow">
+    <h2>
+      Case Studies
+    </h2>
+    <img src="{{ site.baseurl }}/assets/arrow.svg">
+  </div>
+
+</section>
+
+<section id="case-studies">
+
+  {% for post in site.posts %}
+
+    {% include thumbnails.html %}
+
+  {% endfor %}
+
+</section>
