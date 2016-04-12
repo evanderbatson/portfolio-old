@@ -5,8 +5,8 @@
     <description>Media portfolio of Evander Batson</description>
     <link>http://evanderbatson.com/portfolio//</link>
     <atom:link href="http://evanderbatson.com/portfolio//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 09 Apr 2016 16:34:39 -0400</pubDate>
-    <lastBuildDate>Sat, 09 Apr 2016 16:34:39 -0400</lastBuildDate>
+    <pubDate>Tue, 12 Apr 2016 09:53:35 -0400</pubDate>
+    <lastBuildDate>Tue, 12 Apr 2016 09:53:35 -0400</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -29,6 +29,19 @@
         <pubDate>Thu, 31 Mar 2016 10:00:00 -0400</pubDate>
         <link>http://evanderbatson.com/portfolio//case-studies/2016/03/31/internet.html</link>
         <guid isPermaLink="true">http://evanderbatson.com/portfolio//case-studies/2016/03/31/internet.html</guid>
+        
+        
+        <category>case-studies</category>
+        
+      </item>
+    
+      <item>
+        <title>Hover Pictures</title>
+        <description>
+</description>
+        <pubDate>Thu, 31 Mar 2016 09:00:00 -0400</pubDate>
+        <link>http://evanderbatson.com/portfolio//case-studies/2016/03/31/hover.html</link>
+        <guid isPermaLink="true">http://evanderbatson.com/portfolio//case-studies/2016/03/31/hover.html</guid>
         
         
         <category>case-studies</category>
