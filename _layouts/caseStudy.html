@@ -54,6 +54,26 @@
       </h3>
     </section>
 
+    <section class="case-images">
+      <img class="case-image" src="{{ site.baseurl }}/content/{{ page.slug }}/{{ page.slug }}-4.jpg" onerror="this.style.display='none'">
+    </section>
+
+    <section class="case-blurb">
+      <h3>
+        {{ page.blurb4 }}
+      </h3>
+    </section>
+
+    {% if page.video == 1 %}
+
+    <section class="case-video">
+      <video width="100%" autoplay loop>
+        <source src="{{ site.baseurl }}/content/{{ page.slug }}/{{ page.slug }}-video-1.mp4" type="video/mp4">
+      </video>
+    </section>
+
+    {% endif %}
+
     <section class="case-image-full">
       <img class="case-image" src="{{ site.baseurl }}/content/{{ page.slug }}/{{ page.slug }}-end.jpg">
     </section>

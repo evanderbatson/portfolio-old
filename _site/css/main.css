@@ -199,10 +199,13 @@ blockquote {
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center; }
-  #footer h1, #footer h2, #footer h3, #footer a {
+  #footer h1, #footer h2, #footer h3, #footer p, #footer a {
     color: #fdfdfd; }
+  #footer p {
+    font-size: 18pt; }
   #footer h2 {
     display: inline-block;
+    font-size: 20pt;
     margin-right: 15px; }
   #footer nav {
     text-align: center;
@@ -245,7 +248,7 @@ blockquote {
     #case-info .case-grid .two-up-r {
       text-align: right; }
 
-.case-images {
+.case-images, .case-video {
   width: 70%;
   max-width: 900px;
   margin-left: auto;

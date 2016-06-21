@@ -1,10 +1,11 @@
 ---
 layout: caseStudy
 title:  "Hover Pictures"
-date:   2016-03-31 9:00:00 -0400
+date:   2016-03-31 10:30:00 -0400
 categories: case-studies
 link: http://hoverpictures.com
 projectDate: 2015
+video: 1
 
 #copy
 description: UX and development of responsive website / Branding and identity strategy consulting
@@ -16,3 +17,4 @@ blurb1: Hover Pictures broke ground as a documentary production agency in early 
 blurb3: I teamed up with local favorite Bushwick-based visual designers <a href="http://www.eyebodega.com/" target="_blank">EyeBodega</a>, who crafted the striking Hover Pictures emblem and wordmark and selected the type treatments, to create the agency's bespoke, responsive website that is true to the company's vibe and showcases its video work in the way it deserves. To this end, I designed and skinned a custom video player and worked with the company's video editors on the embedded 'portraits' and 'landscapes' reels to tell the scope and story of the company's work.
 
 ---
+

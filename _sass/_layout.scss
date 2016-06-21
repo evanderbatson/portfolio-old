@@ -92,11 +92,15 @@
         @include deadCenter(50%,50%);
         text-align: center;
     }
-    h1, h2, h3, a {
+    h1, h2, h3, p, a {
         color: $light-color;
+    }
+    p { 
+        font-size: $m;
     }
     h2 {
         display: inline-block;
+        font-size: $l;
         margin-right: $spacing-unit/2;
     }
     nav {
@@ -144,7 +148,7 @@
     }
 }
 
-.case-images {
+.case-images, .case-video {
     @include contentCol;
     @include yMargins($spacing-unit*4);
 }
