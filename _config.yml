@@ -16,6 +16,8 @@ url: "http://evanderbatson.com" # the base hostname & protocol for your site
 artPortfolio: evanderbatson
 twitterUsername: treeverb
 githubUsername:  evanderbatson
+instaUsername: evanderbatson
+elloUsername: evander
 
 # Build settings
 markdown: kramdown

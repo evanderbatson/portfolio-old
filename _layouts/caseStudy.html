@@ -28,15 +28,33 @@
       <img class="case-image" src="{{ site.baseurl }}/content/{{ page.slug }}/{{ page.slug }}-1.jpg" onerror="this.style.display='none'">
     </section>
 
+    {% if page.hed1 %}
+    <section class="case-hed">
+      <h2>
+        {{ page.hed1 }}
+      </h2>
+    </section>
+    {% endif %}
+
+    {% if page.blurb1 %}
     <section class="case-blurb">
       <h3>
         {{ page.blurb1 }}
       </h3>
     </section>
+    {% endif %}
 
     <section class="case-images">
       <img class="case-image" src="{{ site.baseurl }}/content/{{ page.slug }}/{{ page.slug }}-2.jpg" onerror="this.style.display='none'">
     </section>
+
+    {% if page.hed2 %}
+    <section class="case-hed">
+      <h2>
+        {{ page.hed2 }}
+      </h2>
+    </section>
+    {% endif %}
 
     <section class="case-blurb">
       <h3>
@@ -78,6 +96,7 @@
       <img class="case-image" src="{{ site.baseurl }}/content/{{ page.slug }}/{{ page.slug }}-end.jpg">
     </section>
 
+    {% if page.link %}
     <section id="case-link">
       <div class="centered-box">
         <h3>Visit the site</h3>
@@ -86,6 +105,7 @@
         </h1>
       </div>
     </section>
+    {% endif %}
 
     <section id="recycler">
 

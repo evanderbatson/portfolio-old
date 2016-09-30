@@ -1,7 +1,7 @@
 ---
 layout: caseStudy
 title:  "Silica Magazine"
-date:   2016-03-31 11:36:28 -0400
+date:   2016-03-31 11:37:28 -0400
 categories: case-studies
 link: http://silicamag.com
 projectDate: 2016

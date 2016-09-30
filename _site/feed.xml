@@ -5,15 +5,15 @@
     <description>Media portfolio of Evander Batson</description>
     <link>http://evanderbatson.com/portfolio//</link>
     <atom:link href="http://evanderbatson.com/portfolio//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 20 Jun 2016 12:55:39 -0400</pubDate>
-    <lastBuildDate>Mon, 20 Jun 2016 12:55:39 -0400</lastBuildDate>
+    <pubDate>Fri, 30 Sep 2016 17:58:28 -0400</pubDate>
+    <lastBuildDate>Fri, 30 Sep 2016 17:58:28 -0400</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>Silica Magazine</title>
         <description>
 </description>
-        <pubDate>Thu, 31 Mar 2016 11:36:28 -0400</pubDate>
+        <pubDate>Thu, 31 Mar 2016 11:37:28 -0400</pubDate>
         <link>http://evanderbatson.com/portfolio//case-studies/2016/03/31/silica.html</link>
         <guid isPermaLink="true">http://evanderbatson.com/portfolio//case-studies/2016/03/31/silica.html</guid>
         
@@ -23,12 +23,12 @@
       </item>
     
       <item>
-        <title>Hover Pictures</title>
+        <title>Texture</title>
         <description>
 </description>
         <pubDate>Thu, 31 Mar 2016 10:30:00 -0400</pubDate>
-        <link>http://evanderbatson.com/portfolio//case-studies/2016/03/31/hover.html</link>
-        <guid isPermaLink="true">http://evanderbatson.com/portfolio//case-studies/2016/03/31/hover.html</guid>
+        <link>http://evanderbatson.com/portfolio//case-studies/2016/03/31/texture.html</link>
+        <guid isPermaLink="true">http://evanderbatson.com/portfolio//case-studies/2016/03/31/texture.html</guid>
         
         
         <category>case-studies</category>
@@ -36,12 +36,12 @@
       </item>
     
       <item>
-        <title>My-Internet.me</title>
+        <title>Plant App</title>
         <description>
 </description>
-        <pubDate>Thu, 31 Mar 2016 10:00:00 -0400</pubDate>
-        <link>http://evanderbatson.com/portfolio//case-studies/2016/03/31/internet.html</link>
-        <guid isPermaLink="true">http://evanderbatson.com/portfolio//case-studies/2016/03/31/internet.html</guid>
+        <pubDate>Tue, 01 Mar 2016 00:00:00 -0500</pubDate>
+        <link>http://evanderbatson.com/portfolio//case-studies/2016/03/01/plant.html</link>
+        <guid isPermaLink="true">http://evanderbatson.com/portfolio//case-studies/2016/03/01/plant.html</guid>
         
         
         <category>case-studies</category>

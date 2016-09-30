@@ -114,6 +114,9 @@ blockquote {
     z-index: 1; }
     #hero .centered-box h1 {
       position: relative; }
+      #hero .centered-box h1 a {
+        color: #111;
+        text-decoration: none; }
     #hero .centered-box .i {
       color: #26b79d;
       font-size: 24pt;
@@ -162,6 +165,22 @@ blockquote {
     width: 70vw;
     z-index: 0;
     opacity: 0.8; }
+  @media screen and (max-width: 600px) {
+    #hero {
+      position: relative; }
+      #hero .centered-box .info {
+        width: 260px; }
+      #hero .arrow {
+        position: absolute;
+        right: 15px;
+        bottom: 60px;
+        z-index: 1; }
+        #hero .arrow h2 {
+          transform: rotate(90deg);
+          font-size: 14pt; }
+        #hero .arrow img {
+          position: relative;
+          height: 50px; } }
 
 #case-studies {
   background: #fdfdfd;
@@ -189,7 +208,7 @@ blockquote {
 #footer {
   position: relative;
   height: 90vh;
-  background: #26b79d; }
+  background: #828282; }
   #footer .centered-box {
     position: absolute;
     top: 50%;
@@ -216,6 +235,11 @@ blockquote {
     margin-left: auto;
     margin-right: auto;
     max-width: 100%; }
+  @media screen and (max-width: 600px) {
+    #footer p {
+      font-size: 10pt; }
+    #footer h2 {
+      font-size: 16pt; } }
 
 #case-hero {
   height: 80vh;
@@ -227,8 +251,8 @@ blockquote {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 120px;
-  margin-bottom: 120px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   text-align: center; }
   #case-info h2 {
     margin-top: 60px;
@@ -246,25 +270,73 @@ blockquote {
     #case-info .case-grid .two-up-l {
       width: 80%; }
     #case-info .case-grid .two-up-r {
-      text-align: right; }
+      text-align: left; }
+  @media screen and (max-width: 800px) {
+    #case-info {
+      display: block; }
+      #case-info .three-up-s, #case-info .three-up-l {
+        width: 100%; } }
+  @media screen and (max-width: 600px) {
+    #case-info {
+      max-width: 100%;
+      width: 100%;
+      margin-top: 30px;
+      margin-bottom: 30px; }
+      #case-info h2 {
+        margin-top: 30px;
+        margin-bottom: 30px; }
+      #case-info .case-grid {
+        display: block;
+        width: 70% !important; }
+        #case-info .case-grid .two-up-l, #case-info .case-grid .two-up-r {
+          text-align: left;
+          width: 100%;
+          font-size: 10pt;
+          margin-top: 15px;
+          margin-bottom: 15px; } }
 
 .case-images, .case-video {
   width: 70%;
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 120px;
-  margin-bottom: 120px; }
+  margin-top: 90px;
+  margin-bottom: 90px; }
+  @media screen and (max-width: 600px) {
+    .case-images, .case-video {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      width: 90%; } }
 
 .case-blurb {
   width: 70%;
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 120px;
-  margin-bottom: 120px; }
+  margin-top: 90px;
+  margin-bottom: 90px; }
   .case-blurb h3 {
     line-height: 45px; }
+  @media screen and (max-width: 600px) {
+    .case-blurb {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      max-width: 100%;
+      width: 90% !important; }
+      .case-blurb h3 {
+        font-size: 10pt;
+        line-height: 20pt; } }
+
+.case-hed {
+  width: 70%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: -30px auto -60px auto; }
+  @media screen and (max-width: 600px) {
+    .case-hed {
+      margin: 30px auto;
+      width: 90%; } }
 
 #case-link {
   position: relative;
@@ -278,6 +350,14 @@ blockquote {
     -moz-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
+    @media screen and (max-width: 600px) {
+      #case-link .centered-box {
+        width: 90% !important;
+        text-align: center; }
+        #case-link .centered-box h3 {
+          font-size: 18pt; }
+        #case-link .centered-box a {
+          font-size: 14pt; } }
   #case-link h3 {
     color: #111;
     margin-bottom: 30px; }
@@ -309,6 +389,27 @@ blockquote {
       -moz-transform: translate(-50%, -50%);
       -o-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
+@media screen and (max-width: 600px) {
+  #recycler h2 {
+    text-align: center;
+    z-index: 3;
+    position: relative; }
+  #recycler .bins {
+    height: auto;
+    display: block; }
+    #recycler .bins .bin {
+      width: 100%;
+      position: relative;
+      height: 400px; }
+      #recycler .bins .bin a {
+        color: #fdfdfd;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); } }
 
 h1 {
   font-size: 46pt;
@@ -355,11 +456,6 @@ h2 {
   src: url("../fonts/markextralight-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/markextralight-webfont.woff2") format("woff2"), url("../fonts/markextralight-webfont.woff") format("woff"), url("../fonts/markextralight-webfont.ttf") format("truetype"), url("../fonts/markextralight-webfont.svg#markextralight") format("svg");
   font-weight: normal;
   font-style: normal; }
-@media screen and (max-width: 800px) {
-  #case-info {
-    display: block; }
-    #case-info .three-up-s, #case-info .three-up-l {
-      width: 100%; } }
 @media screen and (max-width: 600px) {
   .mobile-hidden {
     display: none; }
@@ -371,76 +467,4 @@ h2 {
     font-size: 18pt; }
 
   p {
-    font-size: 10pt; }
-
-  #hero {
-    position: relative; }
-    #hero .centered-box .info {
-      width: 300px; }
-
-  .arrow {
-    position: absolute;
-    right: 15px;
-    bottom: 60px;
-    z-index: 1; }
-    .arrow h2 {
-      transform: rotate(90deg);
-      font-size: 14pt; }
-    .arrow img {
-      position: relative;
-      height: 50px; }
-
-  #case-info {
-    max-width: 100%;
-    width: 90% !important; }
-    #case-info .case-grid {
-      display: block; }
-      #case-info .case-grid .two-up-l, #case-info .case-grid .two-up-r {
-        text-align: center;
-        width: 100%;
-        font-size: 10pt;
-        margin-top: 30px;
-        margin-bottom: 30px; }
-
-  .case-images {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    width: 90%; }
-
-  .case-blurb {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    max-width: 100%;
-    width: 90% !important; }
-    .case-blurb h3 {
-      font-size: 10pt;
-      line-height: 20pt; }
-
-  #case-link .centered-box {
-    width: 90% !important;
-    text-align: center; }
-  #case-link h3 {
-    font-size: 18pt; }
-  #case-link a {
-    font-size: 14pt; }
-
-  #recycler h2 {
-    text-align: center;
-    z-index: 3;
-    position: relative; }
-  #recycler .bins {
-    height: auto;
-    display: block; }
-    #recycler .bins .bin {
-      width: 100%;
-      position: relative;
-      height: 400px; }
-      #recycler .bins .bin a {
-        color: #fdfdfd;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -moz-transform: translate(-50%, -50%);
-        -o-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%); } }
+    font-size: 10pt; } }

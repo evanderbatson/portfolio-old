@@ -1,0 +1,27 @@
+---
+layout: caseStudy
+title:  "Texture"
+date:   2016-03-31 10:30:00 -0400
+categories: case-studies
+link: http://texturegroup.com
+linkB: http://hoverpictures.com
+projectDate: 2016
+video: 1
+
+#copy
+description: Web production and development of responsive agency websites
+role: Web Producer / Developer
+location: NYC 
+
+hed1: Texture Group
+
+blurb1: Agency veteran Bob Maynard (formerly Sweden Unlimited, R/GA, Razorfish) struck out to found his own strategy consultancy. I work with Bob and Texture Group collaborators to build bespoke websites for clients in the music, fashion, film, and culinary industries, as well as building <a href='http://texturegroup.com/journal' target='_blank'>original digital content</a> and their own hyper-minimal agency site <a href="http://www.texturegroup.com/" target="_blank">texturegroup.com</a>. I generally work in a hybrid producer/dev role, translating wireframes and design concepts into beautiful, living digital experiences.
+
+hed2: Client – Hover Pictures
+
+blurb2: <a href="http://www.hoverpictures.com/" target="_blank">Hover Pictures</a> broke ground as a branded-content production agency in early 2014 - as a collective of artists and filmmakers working out of a loft in Chinatown - going on to shoot countless compelling human-interest stories. I teamed up with Texture and Bushwick-based visual designers <a href="http://www.eyebodega.com/" target="_blank">EyeBodega</a>, who crafted the striking Hover emblem and wordmark and selected the type treatments, to create the agency's website that is true to the company's vibe and showcases its video work in the way it deserves. 
+
+blurb3: To this end, I designed and skinned a custom video player and portfolio interface and worked with the company's video editors on the embedded ‘portraits’ and ‘landscapes’ reels to tell the scope and story of the company’s work.
+
+---
+
