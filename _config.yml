@@ -8,13 +8,14 @@
 # Site settings
 title: Evander Batson
 email: evanderbatson@gmail.com
-description: Media portfolio of Evander Batson
+description: Design Portfolio of Evander Batson
 myName: Evander Batson
-baseurl: "/portfolio/"
+baseurl: "/portfolio"
 url: "http://evanderbatson.com" # the base hostname & protocol for your site
+permalink: none
 
 artPortfolio: evanderbatson
-twitterUsername: treeverb
+twitterUsername: smallweasel
 githubUsername:  evanderbatson
 instaUsername: evanderbatson
 elloUsername: evander

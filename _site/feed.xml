@@ -2,20 +2,83 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Evander Batson</title>
-    <description>Media portfolio of Evander Batson</description>
-    <link>http://evanderbatson.com/portfolio//</link>
-    <atom:link href="http://evanderbatson.com/portfolio//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 30 Sep 2016 17:58:28 -0400</pubDate>
-    <lastBuildDate>Fri, 30 Sep 2016 17:58:28 -0400</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <description>Design Portfolio of Evander Batson</description>
+    <link>http://localhost:4000/portfolio/</link>
+    <atom:link href="http://localhost:4000/portfolio/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 13 Aug 2018 17:15:03 -0400</pubDate>
+    <lastBuildDate>Mon, 13 Aug 2018 17:15:03 -0400</lastBuildDate>
+    <generator>Jekyll v3.8.1</generator>
     
       <item>
         <title>Silica Magazine</title>
-        <description>
+        <description>&lt;section class=&quot;case-blurb&quot;&gt;
+
+&lt;p&gt;
+Silica Magazine is your travel guide to the environmental apocalypse: reporting on the planet’s changing landscapes through investigative journalism and interactive art. I helped co-found Silica in 2016 and have served as Creative Director across its past three yearly issues, designing and building its brand, campaigns, and publishing platform.
+&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3&gt;The Critter Issue&lt;/h3&gt;
+
+&lt;p&gt;
+Our latest issue, Critters, was funded by and co-published with &lt;a href=&quot;http://engadget.com/silica&quot; target=&quot;_blank&quot;&gt;Engadget.com&lt;/a&gt; whose features team partnered with us to do a week-long frontpage takeover. The Critter Issue explores natural ecology in the internet age, asking the question: what is wildlife when the world is no longer wild?
+&lt;/p&gt;
+
+&lt;div class=&quot;case-images&quot;&gt;
+	&lt;img class=&quot;case-image&quot; src=&quot;/portfolio/content/silica/silica-1.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+Principle work on the issue spanned the first half of 2018. During the planning and strategy stage, I created a visual identity for the issue that incorporated digitally-generated organic forms with hard-edge typographic treatments to reinforce the themes present in the content that was simultaneously being developed by the editorial team. To compliment the typographic design of the campaign, I created textural digital objects based on 3d scans of organic forms for a full range of RFP and art-direction &lt;a href=&quot;https://drive.google.com/file/d/1PNPqcDg8BdRVxF4OkJrz5oONxDCX1gQ1/view?usp=sharing&quot; target=&quot;_blank&quot;&gt;presentations&lt;/a&gt;, social media assets, and internal branding.
+&lt;/p&gt;
+
+&lt;div class=&quot;case-images&quot;&gt;
+	&lt;img class=&quot;case-image&quot; src=&quot;/portfolio/content/silica/silica-2.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+As Creative Director, much of my work involved concepting, commissioning, and art directing original work from a talented pool of contributors. Coordinating with our internal editorial team, the Engadget editorial team, and our contributing writers, I linked the written narratives to the visual narratives of our contributing artists and creative technologists. 
+&lt;/p&gt;
+
+&lt;p&gt;
+I also spearheaded execution, within both the Engadget and Silicamag CMS, both of which were given extensive overhauls to accommodate the new content types. On the engadget side, I coordinated these efforts with the Senior Features Editor and their internal dev team. On the Silica side, I refined the UX and visual design of the site to reflect the expansion of the platform and content types.   
+&lt;/p&gt;
+
+&lt;div class=&quot;case-images&quot;&gt;
+	&lt;img class=&quot;case-image&quot; src=&quot;/portfolio/content/silica/silica-3.png&quot; /&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;
+Critters proved to be the most media-rich and journalistically deep endeavor Silica has yet undertaken, encompassing hundreds of hours of work by a broad and diverse team of writers, artists, coders, and editors, collaborating on everything from t-shirt designs to 360 immersive media. The issue launch was celebrated at &lt;a href=&quot;https://imprintprojects.com/&quot; target=&quot;_blank&quot;&gt;Imprint Projects&lt;/a&gt; in SOHO, NYC.
+&lt;/p&gt;
+
+&lt;div class=&quot;case-images&quot;&gt;
+	&lt;img class=&quot;case-image&quot; src=&quot;/portfolio/content/silica/silica-4.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h3&gt;The Greater Silica Ecosystem&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;http://silicamag.com/issues/lakes/&quot; target=&quot;_blank&quot;&gt;The Lake Issue&lt;/a&gt; was born from discovering a lost lake in the heart of Appalachia. &lt;a href=&quot;http://silicamag.com/issues/homeland/&quot; target=&quot;_blank&quot;&gt;The Homeland Issue&lt;/a&gt; rose from a crowd-funded revolt in the American landscape. &lt;a href=&quot;http://silicamag.com/issues/critters/&quot; target=&quot;_blank&quot;&gt;The Critter Issue&lt;/a&gt; hatched from under the wing of a major publisher. I invite you to explore this online ecology, every detail of which we have handcrafted from the bare essentials.
+&lt;/p&gt;
+
+&lt;p&gt;
+Silica seeks to take the reader on a voyage. Many of our interactives patch in public satellite data that recreate places across the world right there in your browser window, a travel magazine for a world in which the physical and digital landscapes are intractably interconnected. We have entered into a new kind of frontier where the map is the territory, ready to be explored by tapping open a new tab.
+&lt;/p&gt;
+&lt;p&gt;
+Silicamag.com, with its yearly thematic issues, is the heart of Silica. As an entity, it is larger than just a website. Silica is a community. We are experimenting with expanding horizontally into events, branded partnerships, print media, VR, streaming video, and other spaces both online and offline.
+&lt;/p&gt;
+
+&lt;/section&gt;
+
 </description>
-        <pubDate>Thu, 31 Mar 2016 11:37:28 -0400</pubDate>
-        <link>http://evanderbatson.com/portfolio//case-studies/2016/03/31/silica.html</link>
-        <guid isPermaLink="true">http://evanderbatson.com/portfolio//case-studies/2016/03/31/silica.html</guid>
+        <pubDate>Sun, 11 Mar 2018 12:05:00 -0400</pubDate>
+        <link>http://localhost:4000/portfolio/case-studies/silica.html</link>
+        <guid isPermaLink="true">http://localhost:4000/portfolio/case-studies/silica.html</guid>
         
         
         <category>case-studies</category>
@@ -23,12 +86,196 @@
       </item>
     
       <item>
-        <title>Texture</title>
-        <description>
+        <title>CMYK</title>
+        <description>&lt;section class=&quot;case-blurb&quot;&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://wearecmyk.com&quot; target=&quot;_blank&quot;&gt;wearecmyk.com&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;
+CMYK is a lean digital agency based in Gowanus, Brooklyn with inhouse design and tech teams that interface closely to create unique interactive media. I work with CMYK on a project basis, providing UX and Visual design heavy lifting on apps and web projects. 
+&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2&gt;
+Case Study – Silicon Valley At Home
+&lt;/h2&gt;
+&lt;h3&gt;&lt;a href=&quot;http://siliconvalleyathome.org/&quot; target=&quot;_blank&quot;&gt;siliconvalleyathome.org&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;
+I worked through Gowanus-based creative agency &lt;a href=&quot;http://wearecmyk.com&quot; target=&quot;_blank&quot;&gt;CMYK&lt;/a&gt; to design a custom site for San José-based Silicon Valley At Home, a Bay Area affordable housing advocacy group. They work with partners such as Google to help fight the area's housing crisis. Given the organization's location and network, we went with a techy future-forward look and feel that defies the expectations of a standard non-profit site and offers a rich and engaging experience. 
+&lt;/p&gt;
+
+&lt;p&gt;
+I began by reviewing CMKY's creative direction and designed three initial look and feel directions, and through several revision cycles with the client, evolved the design concept into a flexible, responsive system that integrated with their existing engagement platforms. The final visual design is informed by the post-modernist architectural style of new Bay Area development projects: making use of dramatic geometry, vivid colors, and foggy glass. I sat in on QA sessions with CMYK's in-house development team at various stages of the project to hone a launch-ready product that serves as a big upgrade from their previous website.
+&lt;/p&gt;
+
+
+&lt;div class=&quot;case-images&quot;&gt;
+	&lt;img class=&quot;case-image&quot; src=&quot;/portfolio/content/cmyk/svh-1.jpg&quot; onerror=&quot;this.style.display='none'&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;case-images&quot;&gt;
+	&lt;img class=&quot;case-image&quot; src=&quot;/portfolio/content/cmyk/svh-2.jpg&quot; onerror=&quot;this.style.display='none'&quot; /&gt;
+&lt;/div&gt;
+
+&lt;/section&gt;
 </description>
-        <pubDate>Thu, 31 Mar 2016 10:30:00 -0400</pubDate>
-        <link>http://evanderbatson.com/portfolio//case-studies/2016/03/31/texture.html</link>
-        <guid isPermaLink="true">http://evanderbatson.com/portfolio//case-studies/2016/03/31/texture.html</guid>
+        <pubDate>Sun, 11 Mar 2018 12:02:00 -0400</pubDate>
+        <link>http://localhost:4000/portfolio/case-studies/cmyk.html</link>
+        <guid isPermaLink="true">http://localhost:4000/portfolio/case-studies/cmyk.html</guid>
+        
+        
+        <category>case-studies</category>
+        
+      </item>
+    
+      <item>
+        <title>Decker Design</title>
+        <description>&lt;section class=&quot;case-blurb&quot;&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://deckerdesign.com&quot; target=&quot;_blank&quot;&gt;deckerdesign.com&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;
+Decker Design is a small print and digital boutique design agency based right across from the Flatiron Building in midtown Manhattan. Founded and directed by branding veteran Lynda Decker (AIGA committee co-chair), Decker Design has worked with internationally-recognized  corporations and foundations for a little over 20 years.
+&lt;/p&gt;
+
+&lt;p&gt;
+I am brought in to focus on the digital implementation of wider branding and print campaigns, outlining web strategy and designing websites, microsites, and web interactives. Working under Creative Director Lynda Decker and Sr. Designer Susanne Adriane, I present prototypes directly to clients, using interaction and animation software to ensure all their needs are met before working closely with the development team to bring pixel-perfect mockups to life. 
+&lt;/p&gt; 
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;case-images narrow&quot;&gt;
+	&lt;img class=&quot;case-image&quot; src=&quot;/portfolio/content/decker/decker-1.png&quot; onerror=&quot;this.style.display='none'&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;
+CASE STUDY — Schiffer Hicks Johnson, PLLC
+&lt;/h2&gt;
+
+&lt;p&gt;
+Houston-based law firm SHJ came to Decker after seeing websites we designed for other innovative litigation firms, and commissioned us to craft a new digital identity.
+&lt;/p&gt; 
+
+&lt;h3&gt;
+STRATEGY
+&lt;/h3&gt;
+
+&lt;p&gt;
+Much of SHJ’s work is within the energy and construction industries, so we built a discovery deck that — instead of just looking at other law firms — also included website precedents from high-profile potential clients. This positioning strategy ensures that their website stands out from their competition and speaks the same visual language as their tech-savvy engineering minded clients.
+&lt;/p&gt;
+
+&lt;p&gt;
+After creating a sitemap and prototyping wireframes, I iterated on four distinct visual treatments. We wanted to make sure the core strategy was upheld for each direction: the site should feel future-forward, pragmatic, clean, tactile, and architectural. Ultimately, the client voted internally and landed upon the minimal photography-centric direction A.
+&lt;/p&gt;
+
+&lt;div class=&quot;case-images&quot;&gt;
+	&lt;img class=&quot;case-image&quot; src=&quot;/portfolio/content/decker/decker-2.png&quot; onerror=&quot;this.style.display='none'&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;
+PROCESS
+&lt;/h3&gt;
+
+&lt;p&gt;
+I used Adobe XD to hone interactions and design out pixel-perfect modules for desktop, tablet, and mobile across dozens of artboards. Decker created a full new identity logo system, which I incorporated into the various use cases on the site. We coordinated with photographer John Madere and the writing team at Deborah Gaines Associates to incorporate the final content into the chosen design and to layout the entire 12 template site.  
+&lt;/p&gt;
+
+&lt;p&gt;
+After handing off the exported assets and final design specs to our dev team Manyfold, we stayed in constant contact during revision rounds of the alpha and beta phases, helping to test across devices and iron out any problems that arose and ensure the interaction was behaving how we envisioned.
+&lt;/p&gt;
+
+&lt;div class=&quot;case-images&quot;&gt;
+	&lt;img class=&quot;case-image&quot; src=&quot;/portfolio/content/decker/decker-3.png&quot; onerror=&quot;this.style.display='none'&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;
+RESULT
+&lt;/h3&gt;
+
+&lt;p&gt;
+The launch went a smooth as the lacquer on a gavel, and now Schiffer Hicks Johnson is hitting the ground running with their new online home at &lt;a href=&quot;http://shjlawfirm.com&quot; target=&quot;_blank&quot;&gt;shjlawfirm.com&lt;/a&gt;. If you ask me, they look like the sharpest and sauviest litigation firm in the city of Houston.
+&lt;/p&gt;
+
+&lt;div class=&quot;case-images&quot;&gt;
+	&lt;img class=&quot;case-image&quot; src=&quot;/portfolio/content/decker/decker-4.png&quot; onerror=&quot;this.style.display='none'&quot; /&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Sun, 11 Mar 2018 12:00:00 -0400</pubDate>
+        <link>http://localhost:4000/portfolio/case-studies/decker.html</link>
+        <guid isPermaLink="true">http://localhost:4000/portfolio/case-studies/decker.html</guid>
+        
+        
+        <category>case-studies</category>
+        
+      </item>
+    
+      <item>
+        <title>Texture Group</title>
+        <description>&lt;section class=&quot;case-blurb&quot;&gt;
+
+&lt;h2&gt;
+Agency – Texture Group
+&lt;/h2&gt;
+&lt;h3&gt;&lt;a href=&quot;http://texturegroup.com&quot; target=&quot;_blank&quot;&gt;texturegroup.com&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;
+Agency veteran Bob Maynard (formerly Sweden Unlimited, R/GA, Razorfish) recently struck out on his own to found a new kind of strategy consultancy. I work with  Texture Group to build bespoke websites and craft &lt;a href=&quot;http://texturegroup.com/journal&quot; target=&quot;_blank&quot;&gt;original digital content&lt;/a&gt; for clients in the music, fashion, film, and restaurant industries. 
+&lt;/p&gt;
+
+&lt;div class=&quot;case-images&quot;&gt;
+	&lt;img class=&quot;case-image&quot; src=&quot;/portfolio/content/texture/texture-1.jpg&quot; onerror=&quot;this.style.display='none'&quot; /&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2&gt;
+Client – Hover Pictures
+&lt;/h2&gt;
+&lt;h3&gt;&lt;a href=&quot;http://www.hoverpictures.com/&quot; target=&quot;_blank&quot;&gt;hoverpictures.com&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;
+Hover is a branded-content production agency that shoots compelling human-interest stories. I teamed up with Texture Group and visual designers &lt;a href=&quot;http://www.eyebodega.com/&quot; target=&quot;_blank&quot;&gt;EyeBodega&lt;/a&gt;, who crafted the identity and type treatments, to create the agency's website that is true to the company's vibe and showcases its video work in the way it deserves. I worked with the company's video editors on the embedded ‘portraits’ and ‘landscapes’ reels to tell the scope and story of the company’s work. 
+&lt;/p&gt;
+
+&lt;div class=&quot;case-images&quot;&gt;
+	&lt;img class=&quot;case-image&quot; src=&quot;/portfolio/content/texture/hover-1.jpg&quot; onerror=&quot;this.style.display='none'&quot; /&gt;
+&lt;/div&gt;
+
+&lt;section class=&quot;case-video&quot;&gt;
+	&lt;video width=&quot;100%&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+	  &lt;source src=&quot;/portfolio/content/texture/hover-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+	&lt;/video&gt;
+&lt;/section&gt;
+
+&lt;hr /&gt;
+
+&lt;h2&gt;
+Client – CIRCA BREWING CO
+&lt;/h2&gt;
+&lt;h3&gt;&lt;a href=&quot;http://circabrewing.co/&quot; target=&quot;_blank&quot;&gt;circabrewing.co&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;
+I worked with Texture in building a custom wordpress site for downtown Brooklyn's newest pizzeria and brewery. In collaboration with &lt;a href=&quot;http://www.mgmtdesign.com&quot; target=&quot;_blank&quot;&gt;mgmt.&lt;/a&gt;, we took a holistic approach to designing the restaurant's brand. The website meticulously mirrors the architecture and design of the brewery's interior, down to the aesthetics of the furniture, the machinery of the brewing vats, and even the typeface on the neon sign. 
+&lt;/p&gt;
+&lt;p&gt;
+Beyond the look and feel, &lt;a href=&quot;http://circabrewing.co&quot; target=&quot;_blank&quot;&gt;Circabrewing.co&lt;/a&gt; functions smoothly across desktop and mobile with a custom-built tabbed menu system, and integrates useful toolkits to reserve tables and even order food straight from the kitchen.
+&lt;/p&gt;
+
+&lt;div class=&quot;case-images&quot;&gt;
+	&lt;img class=&quot;case-image&quot; src=&quot;/portfolio/content/texture/circa-1.jpg&quot; onerror=&quot;this.style.display='none'&quot; /&gt;
+&lt;/div&gt;
+
+&lt;section class=&quot;case-video&quot;&gt;
+	&lt;video width=&quot;100%&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+	  &lt;source src=&quot;/portfolio/content/texture/circa-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+	&lt;/video&gt;
+&lt;/section&gt;
+
+&lt;/section&gt;
+</description>
+        <pubDate>Thu, 31 Mar 2016 12:00:00 -0400</pubDate>
+        <link>http://localhost:4000/portfolio/case-studies/texture.html</link>
+        <guid isPermaLink="true">http://localhost:4000/portfolio/case-studies/texture.html</guid>
         
         
         <category>case-studies</category>
@@ -37,11 +284,75 @@
     
       <item>
         <title>Plant App</title>
-        <description>
+        <description>&lt;section class=&quot;case-blurb&quot;&gt;
+
+&lt;p&gt;
+Ever wish you could remember the species name of that succulent on your window sill? When was the last time you watered that little guy? &lt;i&gt;Was it last week, or the week before last?&lt;/i&gt; Plant App (codename) is an forthcoming smartphone utility app designed for indoor plant owners who want to have a pleasing and simple augmented reality experience, that also helps keep their plants healthy.
+&lt;/p&gt;
+
+&lt;section class=&quot;case-video&quot;&gt;
+&lt;video width=&quot;100%&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+  &lt;source src=&quot;/portfolio/content/plant/plant-video-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;/section&gt;
+
+&lt;p&gt;
+Plant App combines sharp user-experience design with an energized art direction to create an app that is laser-pointer simple, breezily intuitive, and a joy to use. Inspired by games like &lt;b&gt;Neko Atsume&lt;/b&gt; and &lt;b&gt;Pokémon Go&lt;/b&gt;, Plant App uses the fun parts of gamification, while cutting out anything that would waste your precious plant time. You've got like a hundred of succulents in your apartment to take care of, after all. &lt;i&gt;But is there a zenned-out ambient soundtrack to listen to while you are watering your plants?&lt;/i&gt; Duh. More info coming soon!
+&lt;/p&gt;
+
+&lt;/section&gt;
 </description>
         <pubDate>Tue, 01 Mar 2016 00:00:00 -0500</pubDate>
-        <link>http://evanderbatson.com/portfolio//case-studies/2016/03/01/plant.html</link>
-        <guid isPermaLink="true">http://evanderbatson.com/portfolio//case-studies/2016/03/01/plant.html</guid>
+        <link>http://localhost:4000/portfolio/case-studies/plant.html</link>
+        <guid isPermaLink="true">http://localhost:4000/portfolio/case-studies/plant.html</guid>
+        
+        
+        <category>case-studies</category>
+        
+      </item>
+    
+      <item>
+        <title>VR and Environment</title>
+        <description>&lt;section class=&quot;case-blurb&quot;&gt;
+
+&lt;p&gt;
+	I create digital environments using 2D and 3D tools for use in VR, AR, visualization, and installation. 
+&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3&gt;VR Portfolio coming soon&lt;/h3&gt;
+
+&lt;!-- &lt;div class=&quot;case-images&quot;&gt;
+	&lt;img class=&quot;case-image&quot; src=&quot;/portfolio/content/art/my-1.jpg&quot;&gt;
+	&lt;p&gt;
+	&lt;a href='http://my-internet.me' target='new'&gt;My-internet.me&lt;/a&gt; is an online video art gallery I built in threejs featuring a variety of artists. 2015.
+	&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+
+&lt;div class=&quot;case-images&quot;&gt;
+	&lt;img class=&quot;case-image&quot; src=&quot;/portfolio/content/art/swiss-valley-1.jpg&quot;&gt;
+	&lt;p&gt;
+	Frames from a sunrise/sunset parallax animation for a mindfulness iOS app. 2015.
+	&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+
+&lt;div class=&quot;case-images&quot;&gt;
+	&lt;img class=&quot;case-image&quot; src=&quot;/portfolio/content/art/murlo-1.jpg&quot;&gt;
+	&lt;p&gt;
+	Digital reconstructions of an ancient palace for an archaeological museum in Murlo, Italy. 2008.
+	&lt;/p&gt;
+&lt;/div&gt; --&gt;
+
+&lt;/section&gt;
+</description>
+        <pubDate>Tue, 01 Mar 2016 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/portfolio/case-studies/art.html</link>
+        <guid isPermaLink="true">http://localhost:4000/portfolio/case-studies/art.html</guid>
         
         
         <category>case-studies</category>

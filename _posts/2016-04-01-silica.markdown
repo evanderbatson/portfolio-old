@@ -1,22 +1,80 @@
 ---
 layout: caseStudy
 title:  "Silica Magazine"
-date:   2016-03-31 11:37:28 -0400
+date:   2018-03-11 12:05:00 -0400
 categories: case-studies
 link: http://silicamag.com
-projectDate: 2016
+projectDate: 2016-NOW
 
 #copy
-description: Design of brand identity / ecosystem, and responsive website.
-role: Creative Director – Digital and Interactive Design – Creative Coding
+caption: Design and Creative Direction
+description: Annual Publication
+role: Creative Director, Digital and Interactive Design, Creative Coding
 location: NYC 
 
-blurb1: I joined up with Editor-In-Chief <a href="http://twitter.com/ivesstive" target="_blank">Casey Halter</a> (writer for POZ, VICE, Betaworks) and Managing Editor <a href="">Shannon Lee</a> (producer and production assistant for NOWNESS, David Byrne, Arielle De Pinto) to spearhead the first issue of Silica Magazine, a geographic travel guide to our changing planet in the digital era. I sought to carve out a niche for Silica's identity using proto-trend internet culture aesthetics, cutting-edge interactive multimedia, and crystal-clear editorial design.
-
-blurb2: The first issue of Silica Magazine is focused on lakes and freshwater. I wanted the art direction to reflects this, using aquatic designs as vessels for establishing context and enriching the thematic feeling. In one story, I worked with shader-specialist <a href="http://twitter.com/whoisbma" target="_blank">Bryan Ma</a> in creating a real-time rendered water environment to serve as a backdrop for the music feature <a href="http://silicamag.com/gallery/glacier-recordings" target="_blank">In Resurrection Bay</a>, where the featured musician traveled to Alaska to digitally record the sounds of melting glaciers. In our atmospheric video feature NOBODIES, we produced a video paired with a report covering the state California's dying Salton Sea – now exacerbated by prevailing drought conditions.
-
-blurb3: In the interactive 3D feature <a href="http://silicamag.com/commentary/aral-sea" target="_blank">Stealing the Aral Sea</a>, I patched together satellite data from NASA and the USGS in Cinema4D, designed a layout in Sketch, and using jekyll and threejs, built a scrolling experience demonstrating how what was once the world's fourth largest lake has become a desert.
-
-blurb4: Silica Mag's primary design challenge was addressing the question "How can we make environmental reporting sexy and relevant?" We shed the tree-hugger trappings associated with environmental discourse and went with an edgy art-house look inspired by netart and zine culture. This goes along with our philosophy of "come for the art, stay for the science" which drives traffic and fulfills the non-profit's funders' goals.
-
 ---
+
+<section class="case-blurb">
+
+<p>
+Silica Magazine is your travel guide to the environmental apocalypse: reporting on the planet’s changing landscapes through investigative journalism and interactive art. I helped co-found Silica in 2016 and have served as Creative Director across its past three yearly issues, designing and building its brand, campaigns, and publishing platform.
+</p>
+
+<hr>
+
+<h3>The Critter Issue</h3>
+
+<p>
+Our latest issue, Critters, was funded by and co-published with <a href='http://engadget.com/silica' target='_blank'>Engadget.com</a> whose features team partnered with us to do a week-long frontpage takeover. The Critter Issue explores natural ecology in the internet age, asking the question: what is wildlife when the world is no longer wild?
+</p>
+
+<div class="case-images">
+	<img class="case-image" src="{{ site.baseurl }}/content/{{ page.slug }}/{{ page.slug }}-1.png">
+</div>
+
+<p>
+Principle work on the issue spanned the first half of 2018. During the planning and strategy stage, I created a visual identity for the issue that incorporated digitally-generated organic forms with hard-edge typographic treatments to reinforce the themes present in the content that was simultaneously being developed by the editorial team. To compliment the typographic design of the campaign, I created textural digital objects based on 3d scans of organic forms for a full range of RFP and art-direction <a href='https://drive.google.com/file/d/1PNPqcDg8BdRVxF4OkJrz5oONxDCX1gQ1/view?usp=sharing' target='_blank'>presentations</a>, social media assets, and internal branding.
+</p>
+
+<div class="case-images">
+	<img class="case-image" src="{{ site.baseurl }}/content/{{ page.slug }}/{{ page.slug }}-2.png">
+</div>
+
+<p>
+As Creative Director, much of my work involved concepting, commissioning, and art directing original work from a talented pool of contributors. Coordinating with our internal editorial team, the Engadget editorial team, and our contributing writers, I linked the written narratives to the visual narratives of our contributing artists and creative technologists. 
+</p>
+
+<p>
+I also spearheaded execution, within both the Engadget and Silicamag CMS, both of which were given extensive overhauls to accommodate the new content types. On the engadget side, I coordinated these efforts with the Senior Features Editor and their internal dev team. On the Silica side, I refined the UX and visual design of the site to reflect the expansion of the platform and content types.   
+</p>
+
+<div class="case-images">
+	<img class="case-image" src="{{ site.baseurl }}/content/{{ page.slug }}/{{ page.slug }}-3.png">
+</div>
+
+
+<p>
+Critters proved to be the most media-rich and journalistically deep endeavor Silica has yet undertaken, encompassing hundreds of hours of work by a broad and diverse team of writers, artists, coders, and editors, collaborating on everything from t-shirt designs to 360 immersive media. The issue launch was celebrated at <a href='https://imprintprojects.com/' target='_blank'>Imprint Projects</a> in SOHO, NYC.
+</p>
+
+<div class="case-images">
+	<img class="case-image" src="{{ site.baseurl }}/content/{{ page.slug }}/{{ page.slug }}-4.jpg">
+</div>
+
+<hr>
+
+<h3>The Greater Silica Ecosystem</h3>
+
+<p>
+<a href='http://silicamag.com/issues/lakes/' target='_blank'>The Lake Issue</a> was born from discovering a lost lake in the heart of Appalachia. <a href='http://silicamag.com/issues/homeland/' target='_blank'>The Homeland Issue</a> rose from a crowd-funded revolt in the American landscape. <a href='http://silicamag.com/issues/critters/' target='_blank'>The Critter Issue</a> hatched from under the wing of a major publisher. I invite you to explore this online ecology, every detail of which we have handcrafted from the bare essentials.
+</p>
+
+<p>
+Silica seeks to take the reader on a voyage. Many of our interactives patch in public satellite data that recreate places across the world right there in your browser window, a travel magazine for a world in which the physical and digital landscapes are intractably interconnected. We have entered into a new kind of frontier where the map is the territory, ready to be explored by tapping open a new tab.
+</p>
+<p>
+Silicamag.com, with its yearly thematic issues, is the heart of Silica. As an entity, it is larger than just a website. Silica is a community. We are experimenting with expanding horizontally into events, branded partnerships, print media, VR, streaming video, and other spaces both online and offline.
+</p>
+
+</section>
+

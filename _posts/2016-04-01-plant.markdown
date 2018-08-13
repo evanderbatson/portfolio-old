@@ -2,17 +2,31 @@
 layout: caseStudy
 title:  "Plant App"
 date:   2016-03-01 1:00:00 -0400
-link: http://evanderbatson.com
 categories: case-studies
 projectDate: 2016
+video: 1
 
 #copy
-description: Design of an iOS and Android touch-device app. 
-role: Designer – Art Direction – 3D Artist
+caption: App Design
+description: Design of an iOS and Android Mobile App 
+role: Designer, Art Direction, 3D Artist
 location: NYC 
 
-blurb1: "Ever wish you could remember the species name of that succulent on your window sill? When was the last time you watered that little guy? <i>Was it last week, or the week before last?</i> Plant App (codename) is an upcoming smartphone utility app designed for indoor-plant owners who want to have a pleasing and relaxing augmented reality experience while helping keep their plants healthy."
-
-blurb3: "Plant App combines sharp user-experience design with an energized art direction to create an app that is laser-pointer simple, breezily intuitive, and a joy to use. Inspired by games like <b>Neko Atsume</b> and <b>Pokémon Go</b>, Plant App uses the fun parts of gamification, while cutting out anything that would waste your precious plant time. You've got like a hundred of succulents in your apartment to take care of, after all. <i>But is there a zenned-out ambient soundtrack to listen to while you are watering your plants?</i> Duh. More info coming soon!"
-
 ---
+<section class="case-blurb">
+
+<p>
+Ever wish you could remember the species name of that succulent on your window sill? When was the last time you watered that little guy? <i>Was it last week, or the week before last?</i> Plant App (codename) is an forthcoming smartphone utility app designed for indoor plant owners who want to have a pleasing and simple augmented reality experience, that also helps keep their plants healthy.
+</p>
+
+<section class="case-video">
+<video width="100%" autoplay loop>
+  <source src="{{ site.baseurl }}/content/{{ page.slug }}/{{ page.slug }}-video-1.mp4" type="video/mp4">
+</video>
+</section>
+
+<p>
+Plant App combines sharp user-experience design with an energized art direction to create an app that is laser-pointer simple, breezily intuitive, and a joy to use. Inspired by games like <b>Neko Atsume</b> and <b>Pokémon Go</b>, Plant App uses the fun parts of gamification, while cutting out anything that would waste your precious plant time. You've got like a hundred of succulents in your apartment to take care of, after all. <i>But is there a zenned-out ambient soundtrack to listen to while you are watering your plants?</i> Duh. More info coming soon!
+</p>
+
+</section>

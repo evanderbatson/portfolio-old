@@ -1,27 +1,74 @@
 ---
 layout: caseStudy
-title:  "Texture"
-date:   2016-03-31 10:30:00 -0400
+title:  "Texture Group"
+date:   2016-03-31 12:00:00 -0400
 categories: case-studies
-link: http://texturegroup.com
-linkB: http://hoverpictures.com
-projectDate: 2016
-video: 1
+projectDate: 2016-NOW
+video: 2
 
 #copy
-description: Web production and development of responsive agency websites
-role: Web Producer / Developer
+caption: Digital Design and Development
+description: Agency Work
+role: Design and Technology
 location: NYC 
-
-hed1: Texture Group
-
-blurb1: Agency veteran Bob Maynard (formerly Sweden Unlimited, R/GA, Razorfish) struck out to found his own strategy consultancy. I work with Bob and Texture Group collaborators to build bespoke websites for clients in the music, fashion, film, and culinary industries, as well as building <a href='http://texturegroup.com/journal' target='_blank'>original digital content</a> and their own hyper-minimal agency site <a href="http://www.texturegroup.com/" target="_blank">texturegroup.com</a>. I generally work in a hybrid producer/dev role, translating wireframes and design concepts into beautiful, living digital experiences.
-
-hed2: Client – Hover Pictures
-
-blurb2: <a href="http://www.hoverpictures.com/" target="_blank">Hover Pictures</a> broke ground as a branded-content production agency in early 2014 - as a collective of artists and filmmakers working out of a loft in Chinatown - going on to shoot countless compelling human-interest stories. I teamed up with Texture and Bushwick-based visual designers <a href="http://www.eyebodega.com/" target="_blank">EyeBodega</a>, who crafted the striking Hover emblem and wordmark and selected the type treatments, to create the agency's website that is true to the company's vibe and showcases its video work in the way it deserves. 
-
-blurb3: To this end, I designed and skinned a custom video player and portfolio interface and worked with the company's video editors on the embedded ‘portraits’ and ‘landscapes’ reels to tell the scope and story of the company’s work.
 
 ---
 
+<section class="case-blurb">
+
+<h2>
+Agency – Texture Group
+</h2>
+<h3><a href="http://texturegroup.com" target="_blank">texturegroup.com</a></h3>
+<p>
+Agency veteran Bob Maynard (formerly Sweden Unlimited, R/GA, Razorfish) recently struck out on his own to found a new kind of strategy consultancy. I work with  Texture Group to build bespoke websites and craft <a href='http://texturegroup.com/journal' target='_blank'>original digital content</a> for clients in the music, fashion, film, and restaurant industries. 
+</p>
+
+<div class="case-images">
+	<img class="case-image" src="{{ site.baseurl }}/content/{{ page.slug }}/texture-1.jpg" onerror="this.style.display='none'">
+</div>
+
+<hr>
+
+<h2>
+Client – Hover Pictures
+</h2>
+<h3><a href="http://www.hoverpictures.com/" target="_blank">hoverpictures.com</a></h3>
+<p>
+Hover is a branded-content production agency that shoots compelling human-interest stories. I teamed up with Texture Group and visual designers <a href="http://www.eyebodega.com/" target="_blank">EyeBodega</a>, who crafted the identity and type treatments, to create the agency's website that is true to the company's vibe and showcases its video work in the way it deserves. I worked with the company's video editors on the embedded ‘portraits’ and ‘landscapes’ reels to tell the scope and story of the company’s work. 
+</p>
+
+<div class="case-images">
+	<img class="case-image" src="{{ site.baseurl }}/content/{{ page.slug }}/hover-1.jpg" onerror="this.style.display='none'">
+</div>
+
+<section class="case-video">
+	<video width="100%" autoplay loop>
+	  <source src="{{ site.baseurl }}/content/{{ page.slug }}/hover-2.mp4" type="video/mp4">
+	</video>
+</section>
+
+<hr>
+
+<h2>
+Client – CIRCA BREWING CO
+</h2>
+<h3><a href="http://circabrewing.co/" target="_blank">circabrewing.co</a></h3>
+<p>
+I worked with Texture in building a custom wordpress site for downtown Brooklyn's newest pizzeria and brewery. In collaboration with <a href="http://www.mgmtdesign.com" target="_blank">mgmt.</a>, we took a holistic approach to designing the restaurant's brand. The website meticulously mirrors the architecture and design of the brewery's interior, down to the aesthetics of the furniture, the machinery of the brewing vats, and even the typeface on the neon sign. 
+</p>
+<p>
+Beyond the look and feel, <a href="http://circabrewing.co" target="_blank">Circabrewing.co</a> functions smoothly across desktop and mobile with a custom-built tabbed menu system, and integrates useful toolkits to reserve tables and even order food straight from the kitchen.
+</p>
+
+<div class="case-images">
+	<img class="case-image" src="{{ site.baseurl }}/content/{{ page.slug }}/circa-1.jpg" onerror="this.style.display='none'">
+</div>
+
+<section class="case-video">
+	<video width="100%" autoplay loop>
+	  <source src="{{ site.baseurl }}/content/{{ page.slug }}/circa-2.mp4" type="video/mp4">
+	</video>
+</section>
+
+</section>

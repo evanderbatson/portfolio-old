@@ -4,133 +4,78 @@
   {% include head.html %}
 
   <body>
+    <div class="wrap">
 
-    {% include header.html %}
+      {% include header.html %}
 
-    <section id="case-hero" style="background-image:url('{{ site.baseurl }}/content/{{ page.slug }}/{{ page.slug }}-hero.jpg')">
-    </section>
+      <section id="case-hero" style="background-image:url('{{ site.baseurl }}/content/{{ page.slug }}/{{ page.slug }}-hero.jpg')">
+      </section>
 
-    <section id="case-info">
-        <h2>{{ page.title }}</h2>
-      <div class="case-grid">
-        <div class="two-up-l">
-          <h3>{{ page.description }}</h3>
-          <h3>{{ page.role }}</h3>
-        </div>
-        <div class="two-up-r">
-          <h3>{{ page.projectDate }}</h3>
-          <h3>{{ page.location }}</h3>
-        </div>
-      </div>
-    </section>
-
-    <section class="case-images">
-      <img class="case-image" src="{{ site.baseurl }}/content/{{ page.slug }}/{{ page.slug }}-1.jpg" onerror="this.style.display='none'">
-    </section>
-
-    {% if page.hed1 %}
-    <section class="case-hed">
-      <h2>
-        {{ page.hed1 }}
-      </h2>
-    </section>
-    {% endif %}
-
-    {% if page.blurb1 %}
-    <section class="case-blurb">
-      <h3>
-        {{ page.blurb1 }}
-      </h3>
-    </section>
-    {% endif %}
-
-    <section class="case-images">
-      <img class="case-image" src="{{ site.baseurl }}/content/{{ page.slug }}/{{ page.slug }}-2.jpg" onerror="this.style.display='none'">
-    </section>
-
-    {% if page.hed2 %}
-    <section class="case-hed">
-      <h2>
-        {{ page.hed2 }}
-      </h2>
-    </section>
-    {% endif %}
-
-    <section class="case-blurb">
-      <h3>
-        {{ page.blurb2 }}
-      </h3>
-    </section>
-
-    <section class="case-image-full">
-      <img class="case-image" src="{{ site.baseurl }}/content/{{ page.slug }}/{{ page.slug }}-3.jpg" onerror="this.style.display='none'">
-    </section>
-
-    <section class="case-blurb">
-      <h3>
-        {{ page.blurb3 }}
-      </h3>
-    </section>
-
-    <section class="case-images">
-      <img class="case-image" src="{{ site.baseurl }}/content/{{ page.slug }}/{{ page.slug }}-4.jpg" onerror="this.style.display='none'">
-    </section>
-
-    <section class="case-blurb">
-      <h3>
-        {{ page.blurb4 }}
-      </h3>
-    </section>
-
-    {% if page.video == 1 %}
-
-    <section class="case-video">
-      <video width="100%" autoplay loop>
-        <source src="{{ site.baseurl }}/content/{{ page.slug }}/{{ page.slug }}-video-1.mp4" type="video/mp4">
-      </video>
-    </section>
-
-    {% endif %}
-
-    <section class="case-image-full">
-      <img class="case-image" src="{{ site.baseurl }}/content/{{ page.slug }}/{{ page.slug }}-end.jpg">
-    </section>
-
-    {% if page.link %}
-    <section id="case-link">
-      <div class="centered-box">
-        <h3>Visit the site</h3>
-        <h1>
-          <a href="{{ page.link }}" target="_blank">{{ page.link | remove: 'http://' }}</a>
-        </h1>
-      </div>
-    </section>
-    {% endif %}
-
-    <section id="recycler">
-
-      <h2>
-        More Case Studies!
-        <span><img src="{{ site.baseurl }}/assets/arrow.svg" width="10px"></span>
-      </h2>
-
-      <div class="bins">
-        {% for post in site.posts %}
-          <div class="bin" style="background-image:url('{{ site.baseurl }}/content/{{ post.slug }}/{{ post.slug }}-thumb.jpg')">
-            <a href="{{ site.baseurl }}{{ post.url }}">
-              <h1>
-                {{ post.title }}
-              </h1>
-            </a>
+      <section id="case-info">
+          <h2>{{ page.title }}</h2>
+        <div class="case-grid">
+          <div class="two-up-l">
+            <p>{{ page.description }} /<br> 
+            {{ page.role }}</p>
           </div>
-        {% endfor %}
-      </div>
+          <div class="two-up-r">
+            <p>{{ page.projectDate }} /<br> 
+            {{ page.location }}</p>
+          </div>
+        </div>
+      </section>
 
-      
-    </section>
+      {{content}}
 
-    {% include footer.html %}
+      <section class="case-image-full">
+        <img class="case-image" src="{{ site.baseurl }}/content/{{ page.slug }}/{{ page.slug }}-end.jpg">
+      </section>
 
+      {% if page.link %}
+      <section id="case-link">
+        <div class="centered-box">
+          <h3>Visit the site</h3>
+          <h1>
+            <a href="{{ page.link }}" target="_blank">{{ page.link | remove: 'http://' }}</a>
+          </h1>
+        </div>
+      </section>
+      {% endif %}
+
+      <section id="recycler">
+
+        <h2>
+          More Case Studies
+          <span><img src="{{ site.baseurl }}/assets/arrow.svg" width="10px"></span>
+        </h2>
+
+        <div class="bins">
+
+          {% for post in site.posts limit:4 %}
+            {% if post.url != page.url %} 
+              {% if forloop.index < 4 or found %}
+                <div class="bin" style="background-image:url('{{ site.baseurl }}/content/{{ post.slug }}/{{ post.slug }}-thumb.jpg')">
+                  <a href="{{ site.baseurl }}{{ post.url }}">
+                    {% if post.mode == "dark" %}
+                      <h1 class="dark">{{ post.title }}</h1>
+                        {% else %}
+                      <h1>{{ post.title }}</h1>
+                    {% endif %}
+                  </a>
+                </div>
+                {% endif %}
+              {% else %}
+                {% assign found = true %} 
+            {% endif %}
+          {% endfor %}
+
+        </div>
+
+        
+      </section>
+
+      {% include footer.html %}
+
+    </div>
   </body>
-
 </html>

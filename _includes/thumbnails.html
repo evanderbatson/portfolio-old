@@ -1,9 +1,17 @@
 <a href="{{ site.baseurl }}{{ post.url }}">
   <div class="study" style="background-image:url('content/{{post.slug}}/{{post.slug}}-thumb.jpg')">
+
       <div class="study-box">
         
-        <h2>{{ post.title }}</h2>
-        
+        <p>{{ post.caption }}</p>
+
+        {% if post.mode == "dark" %}
+        	<h1 class="dark">{{ post.title }}</h1>
+        	{% else %}
+        	<h1>{{ post.title }}</h1>
+        {% endif %}
+
       </div>
+
   </div>
 </a>

@@ -4,44 +4,55 @@
 @charset "utf-8";
 
 // defaults
-$base-font-family: "markbook", Futura, Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
+$font-light: "supplylight", Helvetica, Arial, sans-serif;
+$font-regular: "supplyregular", Helvetica, Arial, sans-serif;
+$font-sans: "maison_neuebook", Helvetica, Arial, sans-serif;
+
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
 //colors
-$brand-color:      #26b79d;
+$brand-color:      #ABB1A3;
 $dark-color: #111;
-$light-color: #fdfdfd;
+$water-color: #3b3d41;
+$light-color: #fffeff;
 $grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-light: lighten($grey-color, 70%);
+$grey-color-dark:  darken($grey-color, 35%);
 
 //card heights
 
-$card-xl: 100vh;
-$card-l: 90vh;
+$card-desktop: 800px;
+$card-l: 100vh;
 $card-m: 80vh;
 $card-s: 400px;
+$card-xs: 300px;
+$card-mobile: 667px;
 
 //sizes
-$xxl: 46pt;
-$xl: 24pt;
-$l: 20pt;
-$m: 18pt;
-$s: 16pt;
-$xs: 14pt;
-$xxs: 10pt;
+$xxl: 2.6rem;
+$xl: 1.8rem;
+$l: 1.8rem;
+$m: 1.2rem;
+$s: 1rem;
+$xs: 1rem;
+$xxs: 1rem;
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    1000px;
 $on-palm:          600px;
-$on-tablet:        800px;
+$on-tablet:        888px;
+$on-laptop:        1200px;
 
 $box-width: 500px;
+$desktop-width: 76%;
+$tablet-width: 80%;
+$mobile-width: 100%;
+
+//styles
+
+$border-s: $grey-color 1px solid;
 
 @mixin crossBrowser($property, $css) {
     -webkit-#{$property} : $css;
@@ -56,10 +67,17 @@ $box-width: 500px;
 } 
 
 @mixin deadCenter($percentX, $percentY) {
-  position: absolute;
+  position: relative;
   top: $percentY;
   left: $percentX;
   @include crossBrowser(transform, translate(-$percentX, -$percentY));
+}
+
+@mixin deadCenterReset() {
+  position: static;
+  top: 0;
+  left: 0;
+  @include crossBrowser(transform, translate(0, 0));
 }
 
 @mixin circled($radius) {
@@ -73,8 +91,8 @@ $box-width: 500px;
 }
 
 @mixin contentCol() {
-  width: 70%;
-  max-width: 900px;
+  width: $desktop-width;
+  max-width: $content-width;
   margin-left: auto;
   margin-right: auto;
 }
@@ -82,6 +100,11 @@ $box-width: 500px;
 @mixin yMargins($margin) {
     margin-top: $margin;
     margin-bottom: $margin;
+}
+
+@mixin xMargins($margin) {
+    margin-left: $margin;
+    margin-right: $margin;
 }
 
 //stuff
@@ -102,6 +125,5 @@ $box-width: 500px;
         "base",
         "layout",
         "type",
-        "typeface",
-        "breakpoints"
+        "typeface"
 ;

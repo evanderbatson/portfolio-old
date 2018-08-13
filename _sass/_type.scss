@@ -1,9 +1,47 @@
+p {
+	font-size: $m;
+	line-height: $m*1.8;
+	font-family: $font-light;
+}
+
 h1 {
-	font-size: $xxl;
-	font-family: markbold;
+	font-size: $xl;
+	font-family: $font-light;
 }
 
 h2 {
 	font-size: $xl;
-	font-family: markbook;	
+	text-transform: uppercase;
+    font-family: $font-regular;
+}
+
+h3 {
+	font-size: $m;
+	text-transform: uppercase;
+	font-family: $font-regular;
+}
+
+li {
+	font-family: $font-light;
+	font-size: $m;
+}
+
+hr {
+	@include yMargins($spacing-unit*2);
+	color: $brand-color;
+	border-style: solid;
+}
+
+
+@include media-query($on-palm) {
+    .slide-numbers h1 {
+        font-size: $l;
+    }
+    h1, h2 {
+        font-size: $m;
+    }
+    p {
+    	font-size: $s;
+    	line-height: $s*1.5;
+    }
 }

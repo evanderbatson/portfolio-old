@@ -1,0 +1,52 @@
+---
+layout: caseStudy
+title:  "VR and Environment"
+date:   2016-03-01 1:00:00 -0400
+categories: case-studies
+projectDate: 2015
+video: 0
+
+#copy
+caption: Art Direction and Illustration
+description: Immersive, conceptual, architectural, and experiential environment assets and spaces
+role: Art Director, Digital Designer, Illustrator
+location: present 
+
+---
+
+<section class="case-blurb">
+
+<p>
+	I create digital environments using 2D and 3D tools for use in VR, AR, visualization, and installation. 
+</p>
+
+<hr>
+
+<h3>VR Portfolio coming soon</h3>
+
+<!-- <div class="case-images">
+	<img class="case-image" src="{{ site.baseurl }}/content/{{ page.slug }}/my-1.jpg">
+	<p>
+	<a href='http://my-internet.me' target='new'>My-internet.me</a> is an online video art gallery I built in threejs featuring a variety of artists. 2015.
+	</p>
+</div>
+
+<hr>
+
+<div class="case-images">
+	<img class="case-image" src="{{ site.baseurl }}/content/{{ page.slug }}/swiss-valley-1.jpg">
+	<p>
+	Frames from a sunrise/sunset parallax animation for a mindfulness iOS app. 2015.
+	</p>
+</div>
+
+<hr>
+
+<div class="case-images">
+	<img class="case-image" src="{{ site.baseurl }}/content/{{ page.slug }}/murlo-1.jpg">
+	<p>
+	Digital reconstructions of an ancient palace for an archaeological museum in Murlo, Italy. 2008.
+	</p>
+</div> -->
+
+</section>
